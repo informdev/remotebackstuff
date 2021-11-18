@@ -3,7 +3,7 @@ The following allows me to passwordlessly connect to a remote server, rsync gene
 **# create ssh key:**
 ssh-keygen
 
-**copy ssh key to remote server:**
+**copy ssh key to remote server:**<br />
 ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@111.111.111.111
 
 **create file - name it backup.sh**
