@@ -1,4 +1,4 @@
-The following allows me to passwordlessly connect to a remote server, rsync generated backups from that server, then it creates tar files of the backup, daily, and deletes any that are more than 5 days old.<br /><br />
+The following allows me to passwordlessly connect to a remote server, rsync generated backups from that server, then it creates tar files of the backup, daily, and deletes any that are more than 5 days old.<br />
 
 **# create ssh key:**<br />
 ssh-keygen
