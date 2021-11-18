@@ -11,5 +11,5 @@ rsync -a --rsync-path "sudo -u root rsync" ubuntu@111.111.111.111:/var/backup/gr
 tar -zcf /home/backup/daily/backup-$(date +%Y%m%d).tar.gz -C /home/take/greenarrow/*;<br />
 find /home/backup/daily/* -mtime +5 -delete<br />
 
-**setup cron job**<br />
+**# setup cron job for 12:15am**<br />
 15 0 * * * sh /root/backup.sh
